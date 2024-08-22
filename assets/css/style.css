@@ -262,6 +262,9 @@ img {
 /* tooltip */
 
 /* active link */
+.active-link {
+  color: var(--first-color);
+}
 
 /* === home === */
 .home {
@@ -713,8 +716,31 @@ img {
 }
 
 /* === SCROLL UP  === */
+.scrollup {
+  position: fixed;
+  bottom: -50%;
+  right: 1rem;
+  background-color: var(--body-color);
+  box-shadow: 0 4px 16px hsla(255, 90%, 8%, 0.15);
+  color: var(--title-color);
+  display: inline-flex;
+  padding: 6px;
+  font-size: 1.25rem;
+  z-index: var(--z-tooltip);
+  transition: bottom 0.4s, transform 0.4s;
+}
+
+.scrollup:hover {
+  transform: translateY(-0.5rem);
+  background-color: var(--first-color);
+  transition: all ease 0.4s;
+  border-radius: 0.2rem;
+}
 
 /* Show Scroll Up */
+.show-scroll {
+  bottom: 3rem;
+}
 
 /* === BREAKPOINTS === */
 
