@@ -807,6 +807,11 @@ img {
     grid-template-columns: repeat(2, max-content);
     justify-content: space-between;
   }
+  .services__container {
+    grid-template-columns: initial;
+    row-gap: 5rem;
+    padding-bottom: 4.5rem;
+  }
 }
 
 /* Form large Devices */
