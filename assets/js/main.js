@@ -90,3 +90,16 @@ window.addEventListener('scroll', scrollActive)
 
 
 /*=============== SCROLL REVEAL ANIMATION ===============*/
+const sr = ScrollReveal({
+    origin: 'top',
+    distance: '100px',
+    duration: 2000,
+    delay: 200,
+    // reset: true, // Animation repeat
+})
+
+sr.reveal(`.home__content, .services__data, .services__swiper, .footer__container`)
+sr.reveal(`.home__images`, {origin: 'bottom'})
+sr.reveal(`.about__images, .contact__img`, {origin: 'left'})
+sr.reveal(`.about__data, .contact__data`, {origin: 'right'})
+sr.reveal(`.projects__card`, {interval: 100})

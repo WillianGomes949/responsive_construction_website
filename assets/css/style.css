@@ -826,7 +826,7 @@ img {
   }
   .home__container {
     grid-template-columns: 475px 550px;
-    column-gap: 4rem;
+    column-gap: 8rem;
     align-items: flex-start;
     padding-top: 5.5rem;
   }
