@@ -981,3 +981,14 @@ img {
     right: 3rem;
   }
 }
+.container-erro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  gap: 8px;
+}
+.container-erro h1 {
+  font-size: 90px;
+}
